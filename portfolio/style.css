@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: #e5e7eb;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    position: relative;
+    color: #10b981;
+}
+
+section h2::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #10b981;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+.rg-navbar {
+    background-color: #111827;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.rg-nav-toggle {
+    display: none;
+}
+
+
+.rg-hamburger {
+    display: none;
+    font-size: 28px;
+    color: #10b981;
+    cursor: pointer;
+}
+
+
+.rg-navbar-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rg-logo {
+    color: #10b981;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.rg-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.rg-nav-links li a {
+    color: #d1d5db;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rg-nav-links li a:hover {
+    color: #10b981;
+}
+
+
+.rg-about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.rg-about-text {
+    flex: 2;
+    min-width: 280px;
+}
+
+.rg-about-img {
+    flex: 2;
+    text-align: center;
+}
+
+.rg-about-img img {
+    width: 300px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border: 5px solid #1f2937;
+}
+
+.rg-skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rg-skill {
+    background-color: #1f2937;
+    color: #10b981;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.rg-skill:hover {
+    background-color: #10b981;
+    color: #111827;
+}
+
+
+.rg-project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
+    gap: 25px;
+}
+
+.rg-project-card {
+    background-color: #1f2937;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.rg-project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.rg-project-card .info {
+    padding: 16px;
+}
+
+.rg-project-card h3 {
+    color: #10b981;
+    margin-bottom: 10px;
+}
+
+.rg-resume-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.rg-resume-section a {
+    background-color: #10b981;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 17px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rg-resume-section a:hover {
+    background-color: #059669;
+}
+
+.rg-contact-details {
+    text-align: center;
+    font-size: 18px;
+    background-color: #1f2937;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rg-contact-details p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #111827;
+    color: #9ca3af;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .rg-navbar-container {
+        flex-wrap: wrap;
+    }
+
+    .rg-hamburger {
+        display: block;
+    }
+
+    .rg-nav-links {
+        flex-direction: column;
+        background-color: #1f2937;
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .rg-nav-toggle:checked+.rg-hamburger+.rg-nav-links {
+        display: flex;
+    }
+
+    .rg-nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
