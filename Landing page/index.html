@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TripNest - Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="rg-main-nav-logo">TripNest</div>
+      <div class="rg-hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="rg-menu-bar" id="menu">
+        <a href="#home">Home</a>
+        <a href="#explore-hills">Explore Hills</a>
+        <a href="#deals-discounts">Deals</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="rg-register-for-trip">
+        <a href="#Explore now">Explore Now</a>
+      </div>
+    </nav>
+
+    <section class="rg-header-txt">
+      <span>Unbox Your Next Journey</span>
+      <h1>Let the World Be Your Playground</h1>
+      <a href="#plan-now">Begin the Adventure</a>
+    </section>
+  </header>
+
+  <section class="rg-section" id="why-us">
+    <h2>Why Choose TripNest?</h2>
+    <p>We curate unique travel experiences tailored for your taste. With trusted guides, exclusive deals, and 24/7 support, your adventures are always in safe hands. Travel smart, travel easy with TripNest.</p>
+  </section>
+
+  <section class="rg-section" id="testimonials">
+    <h2>What Travelers Say</h2>
+    <p>“TripNest made my honeymoon unforgettable! Everything was smooth from booking to return.” – Prachi S.<br><br>
+    “Their hill packages are super underrated – I felt like I found a secret getaway.” – Mohit A.</p>
+  </section>
+
+  <footer>
+    <h3>TripNest</h3>
+    <p>&copy; 2025 TripNest. All rights reserved.</p>
+    <div>
+      <a href="#privacy-policy">Privacy Policy</a>
+      <a href="#terms">Terms</a>
+      <a href="#Support">Support</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('menu').classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
