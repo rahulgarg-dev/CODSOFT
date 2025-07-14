@@ -17,14 +17,14 @@ by *Rahul Garg*, aspiring Frontend Developer.
 
 ## 📌 Tasks Completed
 
-### ✅ Task 1: Landing Page – [TripNest](./TripNest-Landing-Page)
+### ✅ Task 1: Landing Page -
 > A travel-themed responsive landing page with a modern UI and clean layout using HTML & CSS.  
 > Includes hamburger menu, hero section, testimonials, and CTA.
 
-### ✅ Task 2: Calculator App – [Calculator](./Calculator-App)
+### ✅ Task 2: Calculator App –
 > A fully functional calculator built using JavaScript, supporting live input, keyboard events, and responsive design.
 
-### ✅ Task 3: Portfolio Website – [My Portfolio](./Rahul-Portfolio)
+### ✅ Task 3: Portfolio Website – 
 > Personal frontend portfolio showcasing skills, projects, resume download, and contact details — fully mobile-friendly.
 
 ---
