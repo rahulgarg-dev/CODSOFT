@@ -51,7 +51,7 @@ These projects demonstrate my understanding of *frontend development, **UI desig
 *Name:* Rahul Garg  
 *Role:* Frontend Developer (Intern)  
 *Email:* rahulaggarwal31090@gmail.com  
-*GitHub:* [@thegladiator288](https://github.com/thegladiator288)
+*GitHub:* [@rahulgarg-dev](https://github.com/rahulgarg-dev)
 *LinkedIn:* [Rahul Garg](https://www.linkedin.com/in/rahulgargwebdev)
 
 ---
